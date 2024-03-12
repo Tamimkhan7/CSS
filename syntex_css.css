@@ -1,0 +1,34 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    text-shadow: 0cqmax;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rosybrown;
+    margin-bottom: 20px;
+}
+div p{
+    color:navy;
+    font-size:20px;
+    text-align: left;
+    text-align: justify;
+}
+.abc{
+    color: red;
+    text-align: left;
+    text-align: justify;
+}
+/*
+css comment---
+if i want any comment of my code i will use it, that is allocated a comment
+*/
