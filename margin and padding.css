@@ -1,0 +1,31 @@
+.parent{
+background-color:rgba(255, 118, 117, 0.5);
+margin-top: 20px;
+margin-left: 20px;
+padding-left: 15px;
+padding-top: 15px;
+/* both padding work same time, when we declare padding right and left then we will declare top and bottom */
+padding: 15px 20px;
+/* amra jani ager nicer tar priority besi thake */
+margin: 20px 15px;
+}
+.child{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color:rgba(255, 234, 167, 0.6) ;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    color: red;  
+
+}
+div{
+background-color: rgb(116, 185, 255);
+margin-top: 10px;
+margin-left: 15px;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 20px;
+text-align: justify;
+}

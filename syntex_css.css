@@ -1,3 +1,18 @@
+/*
+this is universal selector, when we selected all tag at my html project, then we will use universal selector
+* => universal selector
+# => id selector
+. => class selector
+, => group selector
+*/
+body{
+    background: url(background2.jpg);
+
+}
+*{
+    padding: 0px;
+    background: white;
+}
 h1 {
     font-size: 40px;
     text-align: center;
@@ -10,24 +25,52 @@ p {
     font-size: 20px;
     text-shadow: 0cqmax;
 }
-
+/*
+ai div ke overwitting koreci
+karon ai div a background color set kore nice oh background color set koreci se khette amar nicer ta prority besi pabe
+abar child class ar kono value se access korte parbe na jodi se parent class a thake
+se khette amake child class a value guluke class ba id diye define kore dite hobe
+*/
 div {
     width: 200px;
     height: 200px;
     background-color: rosybrown;
     margin-bottom: 20px;
 }
-div p{
-    color:navy;
-    font-size:20px;
+
+div p {
+    color: navy;
+    font-size: 20px;
     text-align: left;
     text-align: justify;
 }
-.abc{
-    color: red;
+
+.abc {
+    /* using hex code for coloring*/
+ color: #00ff00;
+/* if i want rgb color, that is im using my color */
+color: rgb(84, 3, 3);/* last indecating holo opacity for the coloring*/
     text-align: left;
-    text-align: justify;
 }
+
+.tamim {
+    background: aquamarine;
+}
+
+.tamim p {
+    text-align: left;
+    color: green;
+}
+.khan{
+    color: brown;
+    background-color: chartreuse;
+}
+#id{
+    width: 100px;
+    text-align: right;
+}
+
+
 /*
 css comment---
 if i want any comment of my code i will use it, that is allocated a comment

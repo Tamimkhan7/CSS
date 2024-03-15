@@ -1,0 +1,24 @@
+h1 {
+    /* border-style-- hidden and none dile same dekhabe but border none a border akbare nai but border hidden a border ace but ami apni dekhte parben na */
+    /* border-style: inset;
+    border-width: 5px;
+    border-color: lightgreen;
+    /* border-radius dile hoyto border ta round akare dekhbe no square shape 
+    border-radius: 5px; */
+    border-top: 5px double green;
+    border-right: 5px dotted yellowgreen;
+    border-left: 5px inset brown;
+    border-bottom: 5px inset red;
+    color: yellowgreen;
+    /* border style that set upto the border width and border style and border color */
+    border-left-style: groove;
+    border-bottom-style: dashed;
+    border-top-style: inset;
+    border-right-style: double;
+}
+
+p {
+    text-align: justify;
+    text-orientation: unset;
+    text-overflow: inherit;
+}
