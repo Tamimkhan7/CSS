@@ -1,0 +1,74 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+p {
+    margin: 30px;
+    color: rgb(2, 2, 108);
+    font-size: 25px;
+    font-weight: 20px;
+    /* font-style: oblique; */
+}
+
+.one {
+    text-align-last: right;
+    color: coral;
+}
+
+.two {
+    text-align: center;
+    color: darkturquoise;
+}
+
+.dir {
+    /* aita deafult represent kore */
+    /* direction: ltr; */
+    /* aita reverse represent kore */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.baseline {
+    vertical-align: baseline;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.text-bottom {
+    vertical-align: text-bottom;
+}
+
+.sub {
+    vertical-align: sub;
+}
+.sup {
+    vertical-align: sup;
+}
+a {
+    /* underline default other custom*/
+    text-decoration: overline;
+    /* none a basically kono line a underline thakbe na but oita link hoye kaj korbe like (google) */
+    text-decoration: none;
+}
+h2 {
+    /* capitalize basically holo amra normally jevabe likhe thik oi vabe, first word capital letter other letter small letter */
+    /* text-transform: capitalize; */
+    /* none bolte kicu nai thik ami jei vabe likhbo thik oi vabe asbe kono change hobe na */
+    text-transform: none;
+}
+div h2 {
+    color: red;
+    text-align: center;
+    /* letter spacing basically akta letter theke arekta letter ar space */
+   letter-spacing: normal;
+}
+div p {
+    margin-top: 10px;
+    text-align: left;
+    color: rgb(71, 120, 3);
+    /* test indent basically holo first pera kono tuk dure sorabo */
+    text-indent: 100px;
+}

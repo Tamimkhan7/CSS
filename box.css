@@ -1,0 +1,24 @@
+/* div {
+    background: rgba(108, 92, 231, 1.8);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border: 10px solid tomato;
+    float: left;
+} */
+
+div {
+    background: rgb(108, 92, 231);
+    color: white;
+    width: 24%;
+    margin: 1%;
+    padding: 2%;
+    /* three property with border like first one is border width second one is border-style and third one is border-color */
+    border: 0.5em solid tomato;
+    /* flaot means aktar pasapasi arekta rakha left to right */
+    float: left;
+    /* float right means aktar pasapasi arekta rakha but seita right to left  */
+    /* float: right; */
+}

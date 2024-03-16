@@ -1,0 +1,45 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* inherit korle basically html width or height niye nibe extra kono width or height nibe na */
+    width: inherit;
+    height: inherit;
+}
+.parent {
+    background: blanchedalmond;
+    color: white margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: justify;
+    /* fixed width; */
+    /* width: 300px; */
+    /* percentage height */
+    /* width: 60%; */
+    /* ate scoll korar sathe sathe width boro hote thabe but fixec width apply korle aita ar boro hobe na scoll korleo  */
+    /* width: auto; */
+    /* auto basically joto tuk thakar kotha toto tuk ai niye nibe extra koro kicu nij theke korbe na */
+    height: 80%;
+}
+.child {
+    background: yellow;
+    color: black;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width: 90%;
+    height: 55%;
+}
+
+div h1 {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+div p {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
