@@ -1,0 +1,14 @@
+/* icon custom  */
+i {
+    color: white;
+    background-color: red;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

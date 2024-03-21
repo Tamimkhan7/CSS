@@ -9,16 +9,19 @@ p {
     font-size: 25px;
     font-weight: 20px;
     /* font-style: oblique; */
+    line-height: 30px;
 }
 
 .one {
     text-align-last: right;
     color: coral;
+    line-height: 30px;
 }
 
 .two {
     text-align: center;
     color: darkturquoise;
+    line-height: 30px;
 }
 
 .dir {
@@ -44,31 +47,46 @@ p {
 .sub {
     vertical-align: sub;
 }
+
 .sup {
     vertical-align: sup;
 }
+
 a {
     /* underline default other custom*/
     text-decoration: overline;
     /* none a basically kono line a underline thakbe na but oita link hoye kaj korbe like (google) */
     text-decoration: none;
 }
+
 h2 {
     /* capitalize basically holo amra normally jevabe likhe thik oi vabe, first word capital letter other letter small letter */
     /* text-transform: capitalize; */
     /* none bolte kicu nai thik ami jei vabe likhbo thik oi vabe asbe kono change hobe na */
     text-transform: none;
 }
+
 div h2 {
     color: red;
     text-align: center;
+    font-size: 50px;
     /* letter spacing basically akta letter theke arekta letter ar space */
-   letter-spacing: normal;
-}
+    letter-spacing: normal;
+    /* text shadow holo amra amra akta text a jokhn shadow dei tokhn ar top and bottom size dei then left and right size den then blarr dei then amra color dei */
+    text-shadow: 0px 5px 5px #ddd0dd;
+}Tamim khan
+
 div p {
     margin-top: 10px;
     text-align: left;
     color: rgb(71, 120, 3);
     /* test indent basically holo first pera kono tuk dure sorabo */
     text-indent: 100px;
+    /* line height bascially akta line theke arek ta line ar distance rakhar jonno use kora hoy */
+    line-height: 30px;
+    /* white-space basically working, when we find and space then we will break for the next line */
+    white-space: break-spaces;
+    /* word-spaceing basically working, when we space between two word, how was you word space for the second word */
+    word-spacing: normal;
+
 }
