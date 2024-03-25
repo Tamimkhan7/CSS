@@ -5,14 +5,16 @@ this is universal selector, when we selected all tag at my html project, then we
 . => class selector
 , => group selector
 */
-body{
+body {
     background: url(background2.jpg);
 
 }
-*{
+
+* {
     padding: 0px;
     background: white;
 }
+
 h1 {
     font-size: 40px;
     text-align: center;
@@ -25,6 +27,7 @@ p {
     font-size: 20px;
     text-shadow: 0cqmax;
 }
+
 /*
 ai div ke overwitting koreci
 karon ai div a background color set kore nice oh background color set koreci se khette amar nicer ta prority besi pabe
@@ -47,9 +50,10 @@ div p {
 
 .abc {
     /* using hex code for coloring*/
- color: #00ff00;
-/* if i want rgb color, that is im using my color */
-color: rgb(84, 3, 3);/* last indecating holo opacity for the coloring*/
+    color: #00ff00;
+    /* if i want rgb color, that is im using my color */
+    color: rgb(84, 3, 3);
+    /* last indecating holo opacity for the coloring*/
     text-align: left;
 }
 
@@ -61,11 +65,13 @@ color: rgb(84, 3, 3);/* last indecating holo opacity for the coloring*/
     text-align: left;
     color: green;
 }
-.khan{
+
+.khan {
     color: brown;
     background-color: chartreuse;
 }
-#id{
+
+#id {
     width: 100px;
     text-align: right;
 }

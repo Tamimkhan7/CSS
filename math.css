@@ -1,0 +1,30 @@
+/* body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* #test {
+    font-family: 'Times New Roman', Times, serif;
+    background: violet;
+    width: 94%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+     text-decoration: double;
+padding-left: 5px;
+padding-right: 5px;
+margin: 2% 4%;
+margin-right: 10px;
+}
+*/
+
+#test {
+    background: aqua;
+    /* calc akta math function, screen ar koto tuk nibo aita bujay je ami screen ar koto tuk nite cacci */
+    /* width: calc((100%-300px)); */
+    /* max width mane holo ami koto tuk width nibo amar screen ar  */
+    width: max(70%, 700px);
+    margin: 0 auto;
+    width: min(70%, 700px);
+}

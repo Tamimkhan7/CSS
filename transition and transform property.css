@@ -1,0 +1,57 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.text {
+    box-sizing: border-box;
+    /* background: aqua; */
+    border: 5px solid green;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background: rgb(22, 160, 133);
+    /* transition: 1s; */
+    text-align: left;
+    margin: 15px 15px;
+    padding: 10px 10px;
+    /* transition: 5s; */
+    /* animation name basically custom name hoy */
+    animation-name: custom-name;
+    animation-duration: 10s;
+}
+
+/* animation deoyar jonno keyframes nite hoy ar por custom name ta dite hoy, ar por bole diye hoy konta theke konta korbe */
+/* arpor animation ar duration bole dite hoy */
+
+@keyframes custom-name {
+    from {
+        background: red;
+    }
+
+    to {
+        background: rgb(192, 57, 43);
+    }
+}
+
+.text :hover {
+    border: 2px solid greenyellow;
+    width: 400px;
+    height: 350px;
+    transform: translate(20px, 30px);
+}
+
+a {
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    /* transition mane holo aito second por aita exactly kaj korbe */
+    text-decoration: none;
+    /* transition: 0.5s; */
+
+}
+
+a:hover {
+    color: blueviolet;
+}
