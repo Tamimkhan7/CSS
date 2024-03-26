@@ -1,0 +1,53 @@
+/* .container {
+    display: flex;
+    /* four property into flex tag like row, column , row-reverse last one column-reverse */
+/* flex-direction: row; */
+/* flex-wrap basically direction deoyar jonno use kora hoy basically default kaj kore */
+/* flex-wrap: wrap; */
+/* if i want use flex to the row ways and contin the flex-basis then you can use this tag */
+/* flex-flow: row wrap; */
+/* align-items: baseline; */
+/* align-items: center; 
+}
+*/
+.container {
+    display: grid;
+    /* grid-template-columns: 50% 50% 50%; */
+    /* aita x-axis niye kaj kore, grid and flex property almost similar but there are some featuare differents some feature advantage or disadvantage  */
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* row column two ta na use kore akta use kora jay like gap property */
+    /* default ai vabe thake means left to right hoye thake */
+    /* justify-content: start; */
+    /* aita right to left aste thake */
+    /* justify-content: end; */
+    /* grid-template-columns basically columns ways pasapasi thake and 1fr space nibe first ta and 2fr space nibe second ta */
+    grid-template-columns: 1fr 2fr;
+    /* that is contain y-axis, if i want hold y-axis then i will apply that is like aling-content */
+    align-content: space-evenly;
+
+
+}
+
+.item {
+    border: 2px solid rgb(194, 54, 22);
+    padding: 10px;
+    /* width: 25%; */
+    background: rgb(251, 197, 49);
+    color: #back;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    flex-basis: 29%;
+}
+
+/* .item p {
+    display: none;
+} */
+
+.item:nth-child(5) p,
+.item:nth-child(6) p,
+.item:nth-child(7) p {
+    display: none;
+}
